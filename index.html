@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meghna Rajesh - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Projects</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div>
+            <h1 id='hi'>Hi,</h1><h1 id="intro">I am Meghna Rajesh</h1>
+            <h2 class="typing-effect" id="tagline">A passionate software developer</h2>
+            <button id="resume-btn">My Resume</button>
+        </div>
+    </section>
+    <section id="about">
+        <h1>About Me</h1>
+        <div id="about-div">
+            <p>
+                Hi, I'm Meghna Rajesh, a final year Computer Science Engineering student at 
+                Muthoot Institute of Technology and Science, with a passion for software development. 
+                My academic journey has equipped me with a solid foundation in programming, 
+                data structures, algorithms, and software design.</p>
+            <p>
+                I have hands-on experience with languages such as Python, C, and Java, and I'm 
+                well-versed in web development with HTML, CSS, Javascript, and frameworks like React and Flutter.
+            </p>
+            <p>
+                In addition to my academic work, I've completed several projects that demonstrate my 
+                skills in both software and full-stack development, which you can explore further in the 
+                projects section of this portfolio. I am currently interning at Mygate, where I'm expanding 
+                my skills and gaining hands-on experience in software development.
+            </p>
+            <p>
+                Feel free to connect with me to discuss potential collaborations or opportunities. I'm always 
+                eager to learn and grow in the ever-evolving field of technology.
+            </p>
+        </div>
+    </section>
+    <section id="project">
+        <h1>Projects</h1>
+        <div>
+            <h3>MineDefuser</h3><br>
+            <p>
+                <strong>Description:</strong> A modified version of the classic Minesweeper game developed 
+                in Python. After successfully identifying all the mines on the board, the player is challenged 
+                with a randomly selected mini-game from four different types: the Wires Game, Cipher Game, Memory 
+                Game, and Symbol Game.
+            </p>
+            <p>
+                <strong>Technology Used:</strong> Python
+            </p>
+            <p>
+                <strong>Outcome/Impact:</strong> This project showcases enhanced gameplay mechanics and demonstrates
+                proficiency in Python programming and the game design. It integrates multiple game types into a single 
+                application, providing a varied and engaging experience for players.
+            </p>
+            <br>
+            <p>
+                <a href="https://github.com/zephyr003/MineDefuser-MiniProject-.git">GitHub Repository</a>
+            </p>
+        </div>
+        <div>
+            <h3>Habit Tracker Application</h3><br>
+            <p>
+                <strong>Description:</strong> A Flutter based habit tracker application developed in just 2 days. Users can 
+                add daily activities and view their progress on a calendar. The appliaction utilizes ObjectBox for efficient 
+                data storage and retrieval.
+            </p>
+            <p>
+                <strong>Technologies Used:</strong> Flutter, ObjectBox
+            </p>
+            <p>
+                <strong>Outcome/Impact:</strong> This project was a quick exercise to apply what I learned after spending 5 days 
+                with Flutter. It demonstrates my ability to quickly learn and implement new technologies, resulting in a 
+                functional mobile app with a simple user interface.
+            </p><br>
+            <p>
+                <a href="https://github.com/meghna237/habit_tracker.git">GitHub Repository</a>
+            </p>
+        </div>
+        <div>
+            <h3>Library Management System</h3><br>
+            <p>
+                <strong>Description:</strong> A Python based console application created for my class 12 computer science project.
+                It features a menu-driven interface with distinct roles: librarians canmanage books and users, while users can 
+                search for books, check availability, and view popular titles. The system uses MySQL for database operations.
+            </p>
+            <p>
+                <strong>Technologies Used:</strong> Python, MySQL
+            </p>
+            <p>
+                <strong>Outcome/Impact:</strong> This project demonstratesmy ability to integrate Python with MySQL and implement a 
+                role-based management system.
+            </p><br>
+            <p><a href="https://github.com/meghna237/library_management.git">GitHub Repository</a></p>
+        </div>
+    </section>
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <form id="contactForm">
+            <label class="form-element" for="name">Name:</label>
+            <input class="form-element" type="text" id="name" name="name" required><br>
+
+            <label class="form-element" for="email">Email:</label>
+            <input class="form-element" type="email" id="email" name="email" required><br>
+
+            <label class="form-element" for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea><br>
+
+            <button id="form-btn" class="form-element" type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,185 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: #12372A;
+}
+
+header{
+    background-color: #072219;
+    padding: 20px;
+}
+nav {
+    padding-top: 20px;
+    text-align: right;
+
+}
+nav ul{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+nav ul li {
+    display: inline;
+    padding-right: 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    background-color: rgba(42, 125, 43, 0.5);
+    padding: 10px;
+    margin: -10px;
+    border-radius: 10px;
+
+}
+
+#home{
+    height: 420px;
+    color: #ADBC9F;
+}
+
+#work, #project {
+    height: 620px;
+    color: #ADBC9F;
+}
+  
+#about, #contact {
+    height: 650px;
+    background-color: #436850;
+    color: #FBFADA;
+}
+
+#hi {
+    margin-top: 220px;
+}
+
+#intro, #hi {
+    font-size: 50px;
+    text-align: left;
+    margin-left: 150px;
+}
+
+#tagline {
+    margin-left: 150px;
+}
+
+.typing-effect {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    width: 0;
+    animation: typing 4s steps(30, end) forwards, blink 0.75s step-end 6s forwards;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 26%; }
+}
+
+@keyframes blink {
+    from, to { border-color: transparent; }
+    50% { border-color: #ADBC9F; }
+}
+
+#resume-btn{
+    margin-left: 200px;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 50px;
+    background-color: #ADBC9F;
+    color: #436850;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#about h1, #project h1, #contact h1{
+    font-size: 38px;
+    text-align: center;
+    padding-top: 50px;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -2px  2px 0 #000,
+         2px  2px 0 #000;
+}
+
+#about-div {
+    margin: 80px;
+    background-color: #cee1bd;
+    opacity: 0.8;
+    color: #12372A;
+    padding: 50px;
+    font-size: 20px;
+    box-shadow: 0 0 30px 10px #89a589;
+    border-radius: 50px;
+}
+
+#project {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 70px;
+}
+
+#project h1 {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+}
+
+#project div h3{
+    font-size: 23px;
+}
+
+#project div {
+    flex: 1;
+    min-width: 250px;
+    box-sizing: border-box;
+    margin: 40px;
+    padding: 40px;
+    background-color: #ADBC9F;
+    color: black;
+    border-radius: 40px;
+    box-shadow: 0 0 30px 10px #5F7964;
+}
+
+#contactForm{
+    background-color: #b6cda3;
+    width: 40%;
+    margin: 50px;
+    padding: 40px;
+    color:#072219;
+    font-size: 22px;
+    border-radius: 40px;
+    box-shadow: 0 0 30px 10px #6c896c;
+}
+
+.form-element{
+    margin: 15px;
+}
+
+#name, #email, #message {
+    width: 300px;
+    background-color: #99b399;
+}
+
+#name, #email {
+    height: 30px;
+}
+
+#message {
+    height: 130px;
+    margin-top: 15px;
+}
+
+#form-btn{
+    padding:10px;
+    border-radius: 50px;
+    background-color: #436850;
+    color: #FBFADA;
+    font-size: 15px;
+    margin-top: 25px;
+}
