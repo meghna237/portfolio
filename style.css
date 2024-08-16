@@ -146,15 +146,30 @@ nav ul li a:hover{
     box-shadow: 0 0 30px 10px #5F7964;
 }
 
+#contact {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact h1{
+    flex-basis: 100%;
+}
+
 #contactForm{
+    flex-basis: 100%;
+    align-content: center;
     background-color: #b6cda3;
     width: 40%;
     margin: 50px;
+    
     padding: 40px;
     color:#072219;
     font-size: 22px;
     border-radius: 40px;
     box-shadow: 0 0 30px 10px #6c896c;
+    
 }
 
 .form-element{
